@@ -38,15 +38,22 @@ h2{
     color: #b4b4b4;
 }
 
+img{
+    width: 100%;
+    height: auto;
+}
+
 .blog{
     background-color: #363636;
     width: 100%;
     padding: 20px;
     border-radius: 8px;
+    align-items: center;
 }
 .images{
     background-color: #363636;
     width: 100%;
     padding: 20px;
     border-radius: 8px;
+    align-items: center;
 }
