@@ -18,6 +18,12 @@
                     In week 1 my group has mostly just been ideating and researching about what OCBC is, what a bank does, what features does online banking provide. 
                     We have also been thinking about the needs of the target audience of the project and how we can enhance the experience of the application for these people.
                 </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    The team seems to be working well together and we have started having regular meetings together to ensure that we are all on the same page and know how the
+                    work is delegated. Yeow Teik and I have started to research on how to implement the more technical aspects of the application, such as the facial recognition,
+                    chatbot and Singpass Login. However, it seems that for the Singpass Login, I will need to get permission from Singpass themselves and I have emailed them about it.
+                </p>
             </div>
             <div class = "images">
                 <h2>Week 1 Images</h2>
@@ -33,6 +39,12 @@
                     We spent the second week developing on our ideas using diagrams and wireframes. This is so that we can find holes in our logic and find the problems
                     in the system early on instead of having to cancel features because it causes interference with other features. We have also been talking about
                     which OCBC online banking application to base our application off of to give us the best chance of developing an excellent app.
+                </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    After doing the research, I felt that the problem statement that the group has chosen was quite difficult to solve and I wanted for use to pivot to a different problem
+                    which was to create a onling banking application for children where we could lean in to teaching the children about finances. However, after some deliberation, the change
+                    was rejected by most of the team. Singpass also replied to me and said that they would not give us access to the singpass api, so we decided to scrap that idea. 
                 </p>
             </div>
             <div class = "images">
@@ -50,10 +62,17 @@
                     to mark out what pages will be for what functions. We also started testing the facial recognition and the chatbot technology and figuring out how we could
                     integrate it with out application.
                 </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    After building the facial recognition model using emgu cv, I was able to create a simple program that could use it to identify faces in an image. However,
+                    it did not work very well, I was not sure why because the image that was sent to the model was correctly recognized as a face put could not be matched with a user.
+                    I also set up a way for the user to submit their medical certificates as pdfs and allowed a bank "admin" to approve it, but I felt that we did not have enough
+                    time to create a admin page. We decided to keep it in first and when the project progresses, we will decided what to do then.
+                </p>
             </div>
             <div class = "images">
                 <h2>Week 3 Images</h2>
-                <h2>No images this week</h2>
+                <img src = "PdfUploadImage.png">
             </div>
         </div>
         <div class = "container">
@@ -62,14 +81,21 @@
                     Week 4 blog
                 </h2>
                 <p>
-                    We have finished testing the chatbot and successfully implimented a way to allow the user to upload a medical certificate in pdf form and display it for the staff 
-                    to approve it. We decided to focus on the chatbot, the pdf upload, the signin and login and the facial recognition to be done by the hackathon so that we can showcase
-                    these features.
+                    We focused on completeing the features that we planned to showcase and started to make sure the program was stable enough to demonstrate it to the judges during the 
+                    hackathon. The hardest part was integrating the frontend design with the backend code, we did not think that it would be this difficult, for example, creating
+                    a chatbot that displays each message made the application slow due to the constant calls to the sql database where we stored the messages. So we had to find
+                    another way to do it.
+                </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    I started work on the login and signup function so that the user that could be displayed on the dashboard as we did not want to use a test user for the demonstration.
+                    I also developed a way to add in custom error validations using tempdata easily without having to create a whole new class for custom validations. This way, it would 
+                    make creating forms much faster.
                 </p>
             </div>
             <div class = "images">
                 <h2>Week 4 Images</h2>
-                <img src = "PdfUploadImage.png">
+                <h2>No images this week</h2>
             </div>
         </div>
         <div class = "container">
@@ -80,7 +106,13 @@
                 <p>
                     To get ready to present the prototype, we worked on connecting the backend to the frontend by making sure that the features we wanted to show were displayed 
                     in a simple way so that the judges would be able to understand what the features were doing. We also made sure that there was a flow to our application by adding in buttons
-                    that go to difference pages in the web application and made sure that we did not have to type in the address of the page when demonstrating the application
+                    that go to different pages in the web application and made sure that we did not have to type in the address of the page when demonstrating the application
+                </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    I started to collect the research materials and references that we were going to use to explain why we developed these solutions for this problem. However, I felt that
+                    the solutions that we have came up with are although technologically impressive, they are not very good solutions to the problem. There was no time to change directions
+                    at the time so we continued with the project.
                 </p>
             </div>
             <div class = "images">
@@ -91,43 +123,89 @@
         <div class = "container">
             <div class = "blog">
                 <h2>
-                    Week 6 blog
+                    Week 12 blog
                 </h2>
                 <p>
-                    
+                    After the presentation to the OCBC judges, we decided that we needed to rethink our solution to the problem. we found that our solutions do not directly solve the problems
+                    that the autistic and learning disabled people have. We started brainstorming and came up with a few new solutions one of which is the caretaker system that allows
+                    a trusted adult to oversee the accounts of the autistic and learning disabled.
+                </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    I laid the initial foundations for the caretaker system by allowing the caretaker to log in and see their dashboard where the data of multiple users that they are overseeing
+                    will be displayed and the data fro each user is sent to the page. I believe that this will be the most important part of our solution.
                 </p>
             </div>
             <div class = "images">
-                <h2>Week 6 Images</h2>
-                <h2>No images this week</h2>
+                <h2>Week 12 Images</h2>
+                <img src = "CareTaker.jpeg">
             </div>
         </div>
         <div class = "container">
             <div class = "blog">
                 <h2>
-                    Week 7 blog
+                    Week 13 blog
                 </h2>
                 <p>
-                    
+                    This week the group improved on the previous features that we have implemented and polished them up so that it would look like a complete
+                    application. We also found that some of the critisims that the judges had were unfounded such as the chatbot not solving the problem, 
+                    the chatbot helped to fill in forms and navigate the page which helps the autistic users who struggle with keeping their focus.
+                </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    This week I worked on updating the diagrams that we had so that it would fit into what changes we have made so far in our system. It was mostly
+                    deleting classes that we thought we would need but ended up finding a less complicated way of doing it. This is the class diagram that was updated
+                    the rest of the diagrams are in the project's github readme page.
                 </p>
             </div>
             <div class = "images">
-                <h2>Week 7 Images</h2>
-                <h2>No images this week</h2>
+                <h2>Week 13 Images</h2>
+                <img src = "NewBankDiagram.jpg">
             </div>
         </div>
         <div class = "container">
             <div class = "blog">
                 <h2>
-                    Week 8 blog
+                    Week 14,15 blog
                 </h2>
                 <p>
-                    
+                    These 2 weeks was mostly just working on the application and implementing the planned features. As the due date came closer, the stress
+                    levels also increased. There was an increasing amount of friction between Yeow Teik and Isaac as Yeow Teik accuses Isaac of not putting 
+                    enough effort.
+                </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    In this time I added in the notification and warning systems for the caretaker, I had to learn how to send repetitive ajax requests to the 
+                    controller which was hard to understand how to accomplish it at first but I got the hand of it in the end. Anothr problem was that
+                    due to the constant requests to the sql database, there could have been 2 sql connections opened at once and I had to learn how to use
+                    a lock object that stopped a sql connection from opening when there was already another one open at the time.
                 </p>
             </div>
             <div class = "images">
-                <h2>Week 8 Images</h2>
-                <h2>No images this week</h2>
+                <h2>Week 14,15 Images</h2>
+                <h2>No images these weeks</h2>
+            </div>
+        </div>
+        <div class = "container">
+            <div class = "blog">
+                <h2>
+                    Week 16 blog
+                </h2>
+                <p>
+                    This week, the group came together to complete the presentation slides for the  final project. We spent a good amount of time 
+                    deciding on what information we wanted to include and plotted out a path for the application demonstration during the presentation.
+                </p>
+                <h3> Individual Reflection</h3>
+                <p>
+                    The last week was particularly tough as Yeow Teik became difficult to communicate with and it was hard to add in his part of the 
+                    project into the slides and demonstration. I believe that I could have helped more to stop this situation from escalating
+                    but I did not know what to do that the time. In hindsight, I should have tried to talk it out with him so that I could
+                    try and find a solution to this problem.
+                </p>
+            </div>
+            <div class = "images">
+                <h2>Week 16</h2>
+                <h2>No images these weeks</h2>
             </div>
         </div>
     </body>
